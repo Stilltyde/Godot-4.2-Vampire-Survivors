@@ -4,3 +4,6 @@ res://characters/slime/slime.tscn
 res://player.tscn
 res://gun.tscn
 res://gun.gd
+res://projectile.tscn
+res://bullet.gd
+res://player.gd
