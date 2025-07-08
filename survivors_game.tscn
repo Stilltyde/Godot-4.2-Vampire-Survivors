@@ -9,11 +9,14 @@ y_sort_enabled = true
 position = Vector2(965, 579)
 scale = Vector2(0.548358, 0.548358)
 
-[node name="ColorRect" type="ColorRect" parent="."]
-offset_left = -2008.0
-offset_top = -1135.0
-offset_right = 1935.0
-offset_bottom = 1056.0
+[node name="CanvasLayer" type="CanvasLayer" parent="."]
+layer = -1
+
+[node name="ColorRect" type="ColorRect" parent="CanvasLayer"]
+offset_left = -136.103
+offset_top = -43.3865
+offset_right = 3806.9
+offset_bottom = 2147.61
 metadata/_edit_use_anchors_ = true
 
 [node name="PineTree" parent="." instance=ExtResource("2_y3pti")]
@@ -31,4 +34,10 @@ scale = Vector2(1.6677, 1.6677)
 [node name="Player" parent="." instance=ExtResource("1_3cish")]
 
 [node name="Slimie" parent="." instance=ExtResource("4_7jj1j")]
-position = Vector2(-348, -193)
+position = Vector2(-319.134, -193.304)
+
+[node name="Slimie2" parent="." instance=ExtResource("4_7jj1j")]
+position = Vector2(89.3577, -319.134)
+
+[node name="Slimie3" parent="." instance=ExtResource("4_7jj1j")]
+position = Vector2(510.615, 145.89)
