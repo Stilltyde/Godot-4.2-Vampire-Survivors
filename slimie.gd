@@ -9,8 +9,9 @@ func _physics_process(delta: float) -> void:
 	move_and_slide()
 
 func take_damage():
+	%Slime.play_hurt()
 	health -= 1
 	
 	if health == 0:
-		queue_free(sddd)
+		queue_free()
  
