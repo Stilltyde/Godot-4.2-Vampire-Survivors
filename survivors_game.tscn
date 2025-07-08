@@ -6,12 +6,15 @@
 
 [node name="Game" type="Node2D"]
 y_sort_enabled = true
+position = Vector2(965, 579)
+scale = Vector2(0.548358, 0.548358)
 
 [node name="ColorRect" type="ColorRect" parent="."]
 offset_left = -2008.0
 offset_top = -1135.0
 offset_right = 1935.0
 offset_bottom = 1056.0
+metadata/_edit_use_anchors_ = true
 
 [node name="PineTree" parent="." instance=ExtResource("2_y3pti")]
 position = Vector2(-626, 154)
