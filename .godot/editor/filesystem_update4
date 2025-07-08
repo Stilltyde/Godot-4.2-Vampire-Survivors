@@ -9,3 +9,4 @@ res://projectile.tscn
 res://smoke_explosion/smoke_explosion.tscn
 res://player.gd
 res://gun.gd
+res://survivors_game.gd
