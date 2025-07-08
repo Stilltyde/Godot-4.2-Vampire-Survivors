@@ -6,3 +6,6 @@ res://survivors_game.tscn
 res://player.tscn
 res://gun.tscn
 res://projectile.tscn
+res://smoke_explosion/smoke_explosion.tscn
+res://player.gd
+res://gun.gd
