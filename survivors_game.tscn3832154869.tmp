@@ -7,7 +7,7 @@
 
 [sub_resource type="Curve2D" id="Curve2D_7jj1j"]
 _data = {
-"points": PackedVector2Array(0, 0, 0, 0, 2004.17, -1579.26, 0, 0, 0, 0, 2469.19, 1473.49, 0, 0, 0, 0, -2159.17, 1276.54, 0, 0, 0, 0, -2164.64, -1573.79)
+"points": PackedVector2Array(0, 0, 0, 0, 2004.17, -1579.26, 0, 0, 0, 0, 2009.64, 1331.25, 0, 0, 0, 0, -2159.17, 1276.54, 0, 0, 0, 0, -2164.64, -1573.79)
 }
 point_count = 4
 
@@ -43,14 +43,12 @@ scale = Vector2(1.6677, 1.6677)
 position = Vector2(-27.3544, 248.013)
 
 [node name="Path2D" type="Path2D" parent="Player"]
-position = Vector2(0, -27.3544)
-scale = Vector2(1.1627, 1.1627)
 curve = SubResource("Curve2D_7jj1j")
 
 [node name="PathFollow2D" type="PathFollow2D" parent="Player/Path2D"]
 unique_name_in_owner = true
 position = Vector2(2004.17, -1579.26)
-rotation = 1.41963
+rotation = 1.56892
 
 [node name="Slimie" parent="." instance=ExtResource("4_7jj1j")]
 position = Vector2(-319.134, -193.304)
